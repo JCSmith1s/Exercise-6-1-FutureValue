@@ -47,14 +47,29 @@ namespace FutureValue
 
         }
 
+        private void ClearFutureValue(object sender, EventArgs e)
+        {
+            txtFutureValue.Text = "";
+        }
+
+
+
+        private void frmFutureValue_DoubleClick_1(object sender, EventArgs e)
+        {
+            txtMonthlyInvestment.Text = "";
+            txtYears.Text = "";
+            txtInterestRate.Text = "";
+            txtFutureValue.Text = "";
+        }
+
         private void frmFutureValue_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void ClearFutureValue(object sender, EventArgs e)
+        private void txtInterestRate_DoubleClick(object sender, EventArgs e)
         {
-            txtFutureValue.Text = "";
+            txtInterestRate.Text = "12";
         }
     }
 }
