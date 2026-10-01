@@ -56,6 +56,7 @@ namespace FutureValue
 
         private void frmFutureValue_DoubleClick_1(object sender, EventArgs e)
         {
+            // Exercise 6-2 code
             txtMonthlyInvestment.Text = "";
             txtYears.Text = "";
             txtInterestRate.Text = "";
@@ -69,6 +70,7 @@ namespace FutureValue
 
         private void txtInterestRate_DoubleClick(object sender, EventArgs e)
         {
+            // Exercise 6-2 code
             txtInterestRate.Text = "12";
         }
     }
